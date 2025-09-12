@@ -15,13 +15,13 @@ pip install -r requirements.txt
 
 ## Usage
 
-`--input` The first column of the required input file is the phenotypic value, and the second and subsequent columns are the PCs or numerical type genotype information
-`--batch_size` The number of training samples processed together in one forward/backward pass during model training
-`--dropout` The proportion of neurons randomly dropped during training
-`--epoch` The number of complete passes through the entire training dataset during model training
-`--lr` Learning rate
-`n_trials` The number of hyperparameter searches
-`--seed` Random seed
+`--input` The first column of the required input file is the phenotypic value, and the second and subsequent columns are the PCs or numerical type genotype information<br>
+`--batch_size` The number of training samples processed together in one forward/backward pass during model training<br>
+`--dropout` The proportion of neurons randomly dropped during training<br>
+`--epoch` The number of complete passes through the entire training dataset during model training<br>
+`--lr` Learning rate<br>
+`n_trials` The number of hyperparameter searches<br>
+`--seed` Random seed<br>
 
 ```shell
 
