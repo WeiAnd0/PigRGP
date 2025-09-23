@@ -25,7 +25,7 @@ pip install -r requirements.txt
 
 ```shell
 
-python jiada_val230.py --input ${tra}.pc${i}.input --seed 42 --batch_size 128 256 --dropout 0.4 0.6 --epoch 32 --lr 0.001 0.01 --n_trials 10
+python PigRGP.py --input ${tra}.pc${i}.input --seed 42 --batch_size 128 256 --dropout 0.4 0.6 --epoch 32 --lr 0.001 0.01 --n_trials 10
 
 
 ```
